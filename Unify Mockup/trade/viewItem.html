@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--JS-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script>
+    $(function(){
+      $("#headerContent").load("/templates/header.html"); 
+    });
+	$(function(){
+      $("#sideBar").load("/templates/tradenav.html"); 
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+  <!--CSS-->
+  <link rel="stylesheet" href="https://v40.pingendo.com/assets/bootstrap/bootstrap-4.0.0-beta.1.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> </head>
+
+<body>
+  <div id="headerContent"></div>
+  <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <div id="sideBar" class="col-lg-3">
+        </div>
+        <!-- /.col-lg-3 -->
+
+        <div class="col-lg-9">
+
+          <div class="card mt-4">
+            <img class="card-img-top img-fluid" src="../images/viewTextbook.jpeg" alt="">
+            <div class="card-body">
+				<h3 class="card-title d-inline">LSM1001 Textbook</h3>
+				<h4>$24.99</h4>
+				<p class="card-text">2nd Edition Textbook for LSM1001</p> 
+				<ul class="list-inline">
+					<li class="list-inline-item">Seller: <a href="../dashboard/index.html">Marco Polo Junior</a></li>
+					<li class="list-inline-item pull-right">Location: School of Computing COM1</li>
+				</ul>
+				<p class="card-text d-inline">Willing To Trade With: </p><button type="button" class="btn btn-outline-primary" disabled>MA1312 Textbook</button>
+
+				
+            </div>
+          </div>
+          <!-- /.card -->
+
+          <div class="card card-outline-secondary my-4">
+            <div class="card-header">
+              Product Reviews
+			  <span class="text-warning">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+              4.0 stars
+            </div>
+            <div class="card-body">
+              <p>Nice seller, but unfortunately couldn't make a deal with him :)</p>
+              <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+              <hr>
+              <p>Traded with seller for an MA1312 Textbook. Friendly guy, even gave me tips on how to study for the module.</p>
+              <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+              <hr>
+              <hr>
+              <a href="#" class="btn btn-success">Leave a Review</a>
+            </div>
+          </div>
+          <!-- /.card -->
+
+        </div>
+        <!-- /.col-lg-9 -->
+
+      </div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+</body>
+
+</html>

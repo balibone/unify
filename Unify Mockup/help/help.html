@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--JS-->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script>
+	$(function(){
+	  $("#headerContent").load("/templates/header.html"); 
+	});
+	$(function(){
+	  $("#sideBar").load("/templates/helpnav.html"); 
+	});
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+	<!--CSS-->
+	<link rel="stylesheet" href="https://v40.pingendo.com/assets/bootstrap/bootstrap-4.0.0-beta.1.css" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+  <div id="headerContent"></div>
+  <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <div id ="sideBar" class="col-lg-3"></div>
+        <!-- /.col-lg-3 -->
+
+        <div class="col-md-9 col-lg-9">
+			<div class="table-responsive" style="overflow-y:auto;">
+				<br>
+				<h3 class="text-left">Job Listings</h3>
+				
+				<form class="form-inline">
+				<div class="input-group mb-2 mr-sm-2">
+					<input type="text" style="width:500px" class="form-control" placeholder="Search Listings">
+				</div>
+					<button type="submit" class="btn btn-primary mb-2">Submit</button>
+				</form>
+				<table class="table">
+					<thead>
+						<tr>
+							<th><h5>Image</h5></th>
+							<th><h5>Job Description</h5></th>
+							<th class="text-center"><h5>Rate</h5></th>
+							<th class="text-center"><h5>Category</h5></th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>							
+							<td>
+								<img width="80px" height="auto" src="../images/products/tables.jpeg" alt="image description"></td>
+							<td>
+								<a href="../help/viewHelp.html"><h5 class="title">Table Shifting</h5></a>
+								<i class="fa fa-map-marker" aria-hidden="true"></i><span> School of Computing, COM1, SR1</span><br>
+								<i class="fa fa-calendar" aria-hidden="true"></i><span> Feb 27, 2018</span>
+								<i class="fa fa-clock-o" aria-hidden="true"></i><span> 12:00 PM</span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>Moving & Packing</b></span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>$5/hr</b></span>
+							</td>
+							<td>
+								<button type="button" class="btn btn-primary btn-sm">Chat With Poster</button>
+							</td>
+						</tr>
+						<tr>							
+							<td>
+								<img width="80px" height="auto" src="https://www.mcdonalds.com/content/dam/usa/nutrition/items/evm/h-mcdonalds-Double-Quarter-Pounder-with-Cheese-Extra-Value-Meals.png" alt="image description"></td>
+							<td>
+								<h5 class="title">McDonald's Delivery</h5>
+								<i class="fa fa-map-marker" aria-hidden="true"></i><span> PGP Block B</span><br>
+								<i class="fa fa-calendar" aria-hidden="true"></i><span> Jan 30, 2018</span>
+								<i class="fa fa-clock-o" aria-hidden="true"></i><span> 12:00 AM</span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>Food Delivery</b></span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>$3</b></span>
+							</td>
+							<td>
+								<button type="button" class="btn btn-primary btn-sm">Chat With Poster</button>
+							</td>
+						</tr>
+						<tr>							
+							<td>
+								<img width="80px" height="auto" src="https://s3-media4.fl.yelpcdn.com/bphoto/q3O8xKFjx1oDM_hZ1egJDQ/ls.jpg" alt="image description"></td>
+							<td>
+								<h5 class="title">Pass parcel to friend</h5>
+								<i class="fa fa-map-marker" aria-hidden="true"></i><span> UTown Auditorium 1</span><br>
+								<i class="fa fa-calendar" aria-hidden="true"></i><span> Feb 1, 2018</span>
+								<i class="fa fa-clock-o" aria-hidden="true"></i><span> 12:30 PM</span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>Item Delivery</b></span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>$4</b></span>
+							</td>
+							<td>
+								<button type="button" class="btn btn-primary btn-sm">Chat With Poster</button>
+							</td>
+						</tr>
+						<tr>							
+							<td>
+								<img width="80px" height="auto" src="../images/products/tables.jpeg" alt="image description"></td>
+							<td>
+								<a href="../help/viewHelp.html"><h5 class="title">Table Shifting</h5></a>
+								<i class="fa fa-map-marker" aria-hidden="true"></i><span> School of Computing, COM1, SR1</span><br>
+								<i class="fa fa-calendar" aria-hidden="true"></i><span> Feb 27, 2018</span>
+								<i class="fa fa-clock-o" aria-hidden="true"></i><span> 12:00 PM</span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>Moving & Packing</b></span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>$5/hr</b></span>
+							</td>
+							<td>
+								<button type="button" class="btn btn-primary btn-sm">Chat With Poster</button>
+							</td>
+						</tr>
+						<tr>							
+							<td>
+								<img width="80px" height="auto" src="https://www.mcdonalds.com/content/dam/usa/nutrition/items/evm/h-mcdonalds-Double-Quarter-Pounder-with-Cheese-Extra-Value-Meals.png" alt="image description"></td>
+							<td>
+								<h5 class="title">McDonald's Delivery</h5>
+								<i class="fa fa-map-marker" aria-hidden="true"></i><span> PGP Block B</span><br>
+								<i class="fa fa-calendar" aria-hidden="true"></i><span> Jan 30, 2018</span>
+								<i class="fa fa-clock-o" aria-hidden="true"></i><span> 12:00 AM</span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>Food Delivery</b></span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>$3</b></span>
+							</td>
+							<td>
+								<button type="button" class="btn btn-primary btn-sm">Chat With Poster</button>
+							</td>
+						</tr>
+						<tr>							
+							<td>
+								<img width="80px" height="auto" src="https://s3-media4.fl.yelpcdn.com/bphoto/q3O8xKFjx1oDM_hZ1egJDQ/ls.jpg" alt="image description"></td>
+							<td>
+								<h5 class="title">Pass parcel to friend</h5>
+								<i class="fa fa-map-marker" aria-hidden="true"></i><span> UTown Auditorium 1</span><br>
+								<i class="fa fa-calendar" aria-hidden="true"></i><span> Feb 1, 2018</span>
+								<i class="fa fa-clock-o" aria-hidden="true"></i><span> 12:30 PM</span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>Item Delivery</b></span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>$4</b></span>
+							</td>
+							<td>
+								<button type="button" class="btn btn-primary btn-sm">Chat With Poster</button>
+							</td>
+						</tr><tr>							
+							<td>
+								<img width="80px" height="auto" src="../images/products/tables.jpeg" alt="image description"></td>
+							<td>
+								<a href="../help/viewHelp.html"><h5 class="title">Table Shifting</h5></a>
+								<i class="fa fa-map-marker" aria-hidden="true"></i><span> School of Computing, COM1, SR1</span><br>
+								<i class="fa fa-calendar" aria-hidden="true"></i><span> Feb 27, 2018</span>
+								<i class="fa fa-clock-o" aria-hidden="true"></i><span> 12:00 PM</span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>Moving & Packing</b></span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>$5/hr</b></span>
+							</td>
+							<td>
+								<button type="button" class="btn btn-primary btn-sm">Chat With Poster</button>
+							</td>
+						</tr>
+						<tr>							
+							<td>
+								<img width="80px" height="auto" src="https://www.mcdonalds.com/content/dam/usa/nutrition/items/evm/h-mcdonalds-Double-Quarter-Pounder-with-Cheese-Extra-Value-Meals.png" alt="image description"></td>
+							<td>
+								<h5 class="title">McDonald's Delivery</h5>
+								<i class="fa fa-map-marker" aria-hidden="true"></i><span> PGP Block B</span><br>
+								<i class="fa fa-calendar" aria-hidden="true"></i><span> Jan 30, 2018</span>
+								<i class="fa fa-clock-o" aria-hidden="true"></i><span> 12:00 AM</span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>Food Delivery</b></span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>$3</b></span>
+							</td>
+							<td>
+								<button type="button" class="btn btn-primary btn-sm">Chat With Poster</button>
+							</td>
+						</tr>
+						<tr>							
+							<td>
+								<img width="80px" height="auto" src="https://s3-media4.fl.yelpcdn.com/bphoto/q3O8xKFjx1oDM_hZ1egJDQ/ls.jpg" alt="image description"></td>
+							<td>
+								<h5 class="title">Pass parcel to friend</h5>
+								<i class="fa fa-map-marker" aria-hidden="true"></i><span> UTown Auditorium 1</span><br>
+								<i class="fa fa-calendar" aria-hidden="true"></i><span> Feb 1, 2018</span>
+								<i class="fa fa-clock-o" aria-hidden="true"></i><span> 12:30 PM</span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>Item Delivery</b></span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>$4</b></span>
+							</td>
+							<td>
+								<button type="button" class="btn btn-primary btn-sm">Chat With Poster</button>
+							</td>
+						</tr><tr>							
+							<td>
+								<img width="80px" height="auto" src="../images/products/tables.jpeg" alt="image description"></td>
+							<td>
+								<a href="../help/viewHelp.html"><h5 class="title">Table Shifting</h5></a>
+								<i class="fa fa-map-marker" aria-hidden="true"></i><span> School of Computing, COM1, SR1</span><br>
+								<i class="fa fa-calendar" aria-hidden="true"></i><span> Feb 27, 2018</span>
+								<i class="fa fa-clock-o" aria-hidden="true"></i><span> 12:00 PM</span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>Moving & Packing</b></span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>$5/hr</b></span>
+							</td>
+							<td>
+								<button type="button" class="btn btn-primary btn-sm">Chat With Poster</button>
+							</td>
+						</tr>
+						<tr>							
+							<td>
+								<img width="80px" height="auto" src="https://www.mcdonalds.com/content/dam/usa/nutrition/items/evm/h-mcdonalds-Double-Quarter-Pounder-with-Cheese-Extra-Value-Meals.png" alt="image description"></td>
+							<td>
+								<h5 class="title">McDonald's Delivery</h5>
+								<i class="fa fa-map-marker" aria-hidden="true"></i><span> PGP Block B</span><br>
+								<i class="fa fa-calendar" aria-hidden="true"></i><span> Jan 30, 2018</span>
+								<i class="fa fa-clock-o" aria-hidden="true"></i><span> 12:00 AM</span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>Food Delivery</b></span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>$3</b></span>
+							</td>
+							<td>
+								<button type="button" class="btn btn-primary btn-sm">Chat With Poster</button>
+							</td>
+						</tr>
+						<tr>							
+							<td>
+								<img width="80px" height="auto" src="https://s3-media4.fl.yelpcdn.com/bphoto/q3O8xKFjx1oDM_hZ1egJDQ/ls.jpg" alt="image description"></td>
+							<td>
+								<h5 class="title">Pass parcel to friend</h5>
+								<i class="fa fa-map-marker" aria-hidden="true"></i><span> UTown Auditorium 1</span><br>
+								<i class="fa fa-calendar" aria-hidden="true"></i><span> Feb 1, 2018</span>
+								<i class="fa fa-clock-o" aria-hidden="true"></i><span> 12:30 PM</span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>Item Delivery</b></span>
+							</td>
+							<td>
+								<span class="d-flex justify-content-center"><b>$4</b></span>
+							</td>
+							<td>
+								<button type="button" class="btn btn-primary btn-sm">Chat With Poster</button>
+							</td>
+						</tr>
+					</tbody>
+				</table>					
+			</div>
+		</div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+</body>
+</html>

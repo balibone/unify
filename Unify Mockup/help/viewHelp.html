@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--JS-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script>
+    $(function(){
+      $("#headerContent").load("../templates/header.html"); 
+    });
+	$(function(){
+      $("#sideBar").load("../templates/helpnav.html"); 
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+  <!--CSS-->
+  <link rel="stylesheet" href="https://v40.pingendo.com/assets/bootstrap/bootstrap-4.0.0-beta.1.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> </head>
+
+<body>
+  <div id="headerContent"></div>
+  <!-- Page Content -->
+    <div class="container">
+
+      <div class="row">
+
+        <div id="sideBar" class="col-lg-3">
+        </div>
+        <!-- /.col-lg-3 -->
+
+        <div class="col-lg-9">
+
+          <div class="card mt-4">
+            <div class="card-body">
+				<div class="card-title d-flex justify-content-between">
+					<h3>Table Shifting</h3>
+					<h4>$5/hr</h4>
+				</div>
+				<div class="card-title d-flex justify-content-between">
+					<div>
+						<i class="fa fa-clock-o d-inline" aria-hidden="true"></i>
+						<p class="card-text d-inline">12:00 PM</p>
+						<br>
+						<i class="fa fa-calendar d-inline" aria-hidden="true"></i>
+						<p class="card-text d-inline">Feb 27, 2018</p>
+						<p class="card-text">Category: Moving & Packing </p>
+					</div>
+					<img src="../images/products/tables.jpeg" class="img-fluid">
+				</div>			
+				<p class="card-text">We are holding an industry event in this seminar room and would like some help in table arrangement. You should be able to carry heavy stuff.</p> 
+				<ul class="list-inline">
+					<li class="list-inline-item">Posted By: <a href="../dashboard/index.html">Marco Polo Junior</a>
+							<a href="#" class="btn btn-primary ml-2">Chat with seller</a>
+					</li>
+					<li class="list-inline-item pull-right">Location: School of Computing, COM1, SR1</li>
+				</ul>
+            </div>
+          </div>
+          <!-- /.card -->
+
+        </div>
+        <!-- /.col-lg-9 -->
+
+      </div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+</body>
+
+</html>
