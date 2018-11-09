@@ -1,1 +1,1 @@
-Requires a localhost server to run
+Run `index.html` with any server on localhost
